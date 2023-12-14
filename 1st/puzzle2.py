@@ -14,8 +14,8 @@
 # What is the sum of all of the calibration values?
 
 import re
-file1 = open("./puzzle.txt", 'r')
-lines = file1.readlines()
+file = open("./puzzle.txt", 'r')
+lines = file.readlines()
 
 num_dict = {
     'one': '1',
